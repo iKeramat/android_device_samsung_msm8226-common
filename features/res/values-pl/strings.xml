@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Title names and summary -->
+    <string name="advanced_settings">Dodatki</string>
+    <string name="advanced_settings_summary">Dodatkowe ustawienia urządzenia</string>
+
+    <!-- Vibration -->
+    <string name="vibration_title">Wibracje</string>
+    <string name="vibration_strength_title">Siła</string>
+
+    <!-- Display title-->
+    <string name="display_title">Wyświetlacz</string>
+
+    <!-- Ambient Display -->
+    <string name="ambient_display_samsung">Aktywny wyświetlacz</string>
+    <string name="advanced_doze_summary">Wybudź ekran, po otrzymaniu powiadomienia</string>
+
+    <!-- kcal -->
+    <string name="device_kcal_title">KCAL</string>
+    <string name="device_kcal_summary">Kalibracja kolorów wyświetlacza przy użyciu KCAL</string>
+    <string name="advanced_settings_kcal">Kalibracja kolorów wyświetlacza</string>
+    <string name="cat_colormanagement">Ustawienia kolorów</string>
+    <string name="cat_calibration">Kalibracja wyświetlacza</string>
+    <string name="kcal_enabled">Włączone</string>
+    <string name="kcal_disabled">Wyłączone</string>
+    <string name="set_on_boot">Ustaw przy starcie</string>
+    <string name="color_red">Czerwony</string>
+    <string name="color_green">Zielony</string>
+    <string name="color_blue">Niebieski</string>
+    <string name="color_minimum">Minimum</string>
+    <string name="saturation">Saturacja</string>
+    <string name="value">Wartość</string>
+    <string name="contrast">Kontrast</string>
+    <string name="hue">Odcień</string>
+    <string name="grayscale">Wyświetlanie w skali szarości</string>
+
+    <!-- Presets -->
+    <string name="presets_dialog_title">Wybierz ustawienia</string>
+    <string name="preset_default">Domyślne</string>
+    <string name="preset_version_1">Wersja 1</string>
+    <string name="preset_version_2">Wersja 2</string>
+    <string name="preset_version_3">Wersja 3</string>
+    <string name="preset_triluminous">Triluminous</string>
+    <string name="preset_deep_black_white">Głęboka czerń i biel</string>
+    <string name="preset_deep_natural">Głęboki Naturalny</string>
+    <string name="preset_cool_amoled">Chłodny Amoled</string>
+    <string name="preset_extreme_amoled">Ekstremalny Amoled</string>
+    <string name="preset_warm_amoled">Ciepły Amoled</string>
+    <string name="preset_hybrid_mamba">Hybrydowa Mamba</string>
+    <string name="preset_hide_ge1">Ukryj powidoki 1</string>
+    <string name="preset_hide_ge2">Ukryj powidoki 2</string>
+
+    <!-- Torch -->
+    <string name="torch_title">Latarka</string>
+    <string name="torch_brightness_title">Jasność</string>
+
+    <!-- menu -->
+    <string name="kcal_presets">@string/presets_dialog_title</string>
+    <string name="kcal_reset">Reset</string>
+
+    <!-- CustomSeekBarPreference -->
+    <string name="edit_value">Wybierz nową wartość </string>
+    <string name="default_value">Wartość domyślna</string>
+    <string name="edit_hint">Wartość pomiędzy %1$d a %2$d</string>
+</resources>

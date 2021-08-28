@@ -28,3 +28,7 @@ type sysfs_wifi_writeable, fs_type, sysfs_type;
 type bt_fw_file, file_type;
 type nfc_fw_file, file_type;
 type wifi_efs_file, file_type;
+
+type kcal_dev, sysfs_type, fs_type;
+type sysfs_torch, sysfs_type, fs_type;
+type sysfs_otg_enabler, sysfs_type, fs_type;
