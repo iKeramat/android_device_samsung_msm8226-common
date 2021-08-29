@@ -29,7 +29,7 @@ DEVICE_COMMON=${BOARD}-common
 INITIAL_COPYRIGHT_YEAR=2017
 VENDOR=samsung
 
-HELPER="$CM_ROOT"/vendor/lineage/build/tools/extract_utils.sh
+HELPER="$CM_ROOT"/vendor/aosp/build/tools/extract_utils.sh
 if [ ! -f "$HELPER" ]; then
     echo "Unable to find helper script at $HELPER"
     exit 1

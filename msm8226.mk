@@ -16,7 +16,7 @@
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     device/samsung/msm8226-common/overlay \
-    device/samsung/msm8226-common/overlay-lineage
+    device/samsung/msm8226-common/overlay-extended
 
 PRODUCT_ENFORCE_RRO_TARGETS := *
 
@@ -115,7 +115,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/gps/etc/gps.conf:system/etc/gps.conf \
     $(LOCAL_PATH)/gps/etc/izat.conf:system/etc/izat.conf \
     $(LOCAL_PATH)/gps/etc/sap.conf:system/etc/sap.conf
-    
+
 # Health
 PRODUCT_PACKAGES += \
     android.hardware.health@2.1-impl \
@@ -130,10 +130,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     android.hardware.keymaster@3.0-impl \
     android.hardware.keymaster@3.0-service
-
-# LiveDisplay
-PRODUCT_PACKAGES += \
-    vendor.lineage.livedisplay@2.0-service.samsung-qcom
 
 # Media
 PRODUCT_COPY_FILES += \
@@ -167,7 +163,7 @@ PRODUCT_PACKAGES += \
 # Power HAL
 PRODUCT_PACKAGES += \
     android.hardware.power-service-qti
-    
+
 # Preopt
 PRODUCT_DEXPREOPT_SPEED_APPS += \
     Settings \
